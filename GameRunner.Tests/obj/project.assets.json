@@ -5869,11 +5869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jkelley\\source\\repos\\GameRunner\\GameRunner.Tests\\GameRunner.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jkelley\\Documents\\Repositories\\TicTacToe\\GameRunner.Tests\\GameRunner.Tests.csproj",
       "projectName": "GameRunner.Tests",
-      "projectPath": "C:\\Users\\jkelley\\source\\repos\\GameRunner\\GameRunner.Tests\\GameRunner.Tests.csproj",
+      "projectPath": "C:\\Users\\jkelley\\Documents\\Repositories\\TicTacToe\\GameRunner.Tests\\GameRunner.Tests.csproj",
       "packagesPath": "C:\\Users\\jkelley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jkelley\\source\\repos\\GameRunner\\GameRunner.Tests\\obj\\",
+      "outputPath": "C:\\Users\\jkelley\\Documents\\Repositories\\TicTacToe\\GameRunner.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5892,8 +5892,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\jkelley\\source\\repos\\GameRunner\\GameRunner.Shared\\GameRunner.Shared.csproj": {
-              "projectPath": "C:\\Users\\jkelley\\source\\repos\\GameRunner\\GameRunner.Shared\\GameRunner.Shared.csproj"
+            "C:\\Users\\jkelley\\Documents\\Repositories\\TicTacToe\\GameRunner.Shared\\GameRunner.Shared.csproj": {
+              "projectPath": "C:\\Users\\jkelley\\Documents\\Repositories\\TicTacToe\\GameRunner.Shared\\GameRunner.Shared.csproj"
             }
           }
         }
