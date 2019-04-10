@@ -1,7 +1,8 @@
-﻿using GameRunner.Shared;
+﻿using GameRunner.ConsoleApp.Services;
+using GameRunner.Shared;
 using System;
 
-namespace GameRunner
+namespace GameRunner.ConsoleApp
 {
     class Program
     {
@@ -10,12 +11,14 @@ namespace GameRunner
             DisplayWelcome();
             TicTacToe ticTacToe = new TicTacToe();
 
+            IInputService inputService = new TicTacToeInputService();
+
             bool hasWinner = false;
 
             while (!hasWinner)
             {
                 GenerateTicTacToeBoard(ticTacToe);
-                int position = GatherInputPosition(ticTacToe);
+                int position = inputService.GatherPlayerInput(ticTacToe);
 
                 hasWinner = ticTacToe.Play(position);
             }
@@ -37,91 +40,6 @@ namespace GameRunner
 
             Console.WriteLine();
         }
-
-        /// <summary>
-        /// Gathers input from player and ensures that the input is sanitized and the position is available.
-        /// </summary>
-        /// <param name="ticTacToe"></param>
-        /// <returns>Returns input from user that has been sanitized.</returns>
-        private static int GatherInputPosition(TicTacToe ticTacToe)
-        {
-            Console.WriteLine("Please input a number for the spot you want: ");
-            string inputPosition = Console.ReadLine();
-
-            return ValidateInput(inputPosition, ticTacToe);
-        }
-
-        private static int ValidateInput(string inputPosition, TicTacToe ticTacToe)
-        {
-            int inputPositionSanitized = SanitizeInputPosition(inputPosition);
-
-            bool positionIsAvailable = PositionIsAvailable(inputPositionSanitized, ticTacToe);
-
-            while (!positionIsAvailable)
-            {
-                inputPosition = DisplayPositionAlreadyTakenErrorWithInput();
-                inputPositionSanitized = SanitizeInputPosition(inputPosition);
-                positionIsAvailable = PositionIsAvailable(inputPositionSanitized, ticTacToe);
-            }
-
-            return inputPositionSanitized;
-        }
-
-        #region Helper Functions For Validating Input
-        /// <summary>
-        /// Receives input from user and ensures that it is an integer 1-9. Gives user 3 chances. 
-        /// </summary>
-        /// <param name="inputPosition"></param>
-        /// <returns>Returns sanitized valid integer 1-9 enterred by user.</returns>
-        private static int SanitizeInputPosition(string inputPosition)
-        {
-            // 3 tries for user to input valid input
-            int count = 1;
-            bool inputSanitized = false;
-            int inputPositionSanitized = 0;
-
-            while (count < 3 && !inputSanitized)
-            {
-                bool conversionHappened = Int32.TryParse(inputPosition, out inputPositionSanitized);
-
-                inputSanitized = conversionHappened && inputPositionSanitized <= 9 && inputPositionSanitized > 0;
-
-                if (!inputSanitized)
-                {
-                    inputPosition = DisplayNotValidIntegerErrorWithInput();
-                }
-
-                count++;
-            }
-
-            if (inputSanitized)
-            {
-                return inputPositionSanitized;
-            }
-            else
-            {
-                throw new Exception("Tried 3 times and user did not put in valid integer");
-            }
-        }
-
-        private static string DisplayNotValidIntegerErrorWithInput()
-        {
-            Console.WriteLine("The value you entered was not an integer 1-9. Please enter a valid integer: ");
-            return Console.ReadLine();
-        }
-
-        private static string DisplayPositionAlreadyTakenErrorWithInput()
-        {
-            Console.WriteLine("The position you entered has already been taken by a player. Please try again: ");
-            return Console.ReadLine();
-        }
-
-        private static bool PositionIsAvailable(int position, TicTacToe ticTacToe)
-        {
-            return ticTacToe[position - 1] == null;
-        }
-
-        #endregion
 
         /// <summary>
         /// Displays a welcome to the user with basic instructions.

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRunner.Console", "GameRunner.Console\GameRunner.Console.csproj", "{45813A8B-085C-48DE-AB40-F1E086B05625}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRunner.ConsoleApp", "GameRunner.Console\GameRunner.ConsoleApp.csproj", "{45813A8B-085C-48DE-AB40-F1E086B05625}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRunner.Shared", "GameRunner.Shared\GameRunner.Shared.csproj", "{0D23CE25-2E71-47E4-8345-6ECBBEF7B595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRunner.Tests", "GameRunner.Tests\GameRunner.Tests.csproj", "{C9815495-AC5F-4F82-A9FC-EEA783DBA6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameRunner.Tests", "GameRunner.Tests\GameRunner.Tests.csproj", "{C9815495-AC5F-4F82-A9FC-EEA783DBA6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,10 @@
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Console.exe.config
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Console.exe
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Console.pdb
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Shared.dll
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Shared.pdb
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.ConsoleApp.csproj.CopyComplete
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.exe
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.pdb
