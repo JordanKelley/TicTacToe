@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{45813A8B-085C-48DE-AB40-F1E086B05625}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GameRunner.Console</RootNamespace>
-    <AssemblyName>GameRunner.Console</AssemblyName>
+    <RootNamespace>GameRunner.ConsoleApp</RootNamespace>
+    <AssemblyName>GameRunner.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
