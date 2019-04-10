@@ -9,7 +9,7 @@ namespace GameRunner.Tests
     public class TicTacToeTests
     {
         // I'm simply testing my system under test tic-tac-toe class for the 3 different scenarios
-        // through it's API entry point Play()
+        // through it's entry point Play()
 
         [Theory]
         [MemberData(nameof(Get8DifferentMatchingLinesPlayer1), parameters:8)]

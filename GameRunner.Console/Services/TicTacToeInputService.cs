@@ -3,14 +3,14 @@ using System;
 
 namespace GameRunner.ConsoleApp.Services
 {
-    public class TicTacToeInputService : IInputService
+    public static class TicTacToeInputService
     {
         /// <summary>
         /// Gathers player input and returns validated input.
         /// </summary>
         /// <param name="ticTacToe"></param>
         /// <returns>Returns validated Tic-Tac-Toe friendly input</returns>
-        public int GatherPlayerInput(TicTacToe ticTacToe)
+        public static int GatherPlayerInput(TicTacToe ticTacToe)
         {
             Console.WriteLine("Please input a number for the spot you want: ");
             string inputPosition = Console.ReadLine();
@@ -24,7 +24,7 @@ namespace GameRunner.ConsoleApp.Services
         /// <param name="inputPosition"></param>
         /// <param name="ticTacToe"></param>
         /// <returns></returns>
-        private int ValidateInput(string inputPosition, TicTacToe ticTacToe)
+        private static int ValidateInput(string inputPosition, TicTacToe ticTacToe)
         {
             int inputPositionSanitized = SanitizeInputPosition(inputPosition);
 
@@ -45,7 +45,7 @@ namespace GameRunner.ConsoleApp.Services
         /// </summary>
         /// <param name="inputPosition"></param>
         /// <returns>Returns a user entered integer 1-9.</returns>
-        private int SanitizeInputPosition(string inputPosition)
+        private static int SanitizeInputPosition(string inputPosition)
         {
             bool inputSanitized = false;
             int inputPositionSanitized = 0;
@@ -66,19 +66,19 @@ namespace GameRunner.ConsoleApp.Services
         }
 
         #region Validate input helper functions
-        private string DisplayNotValidIntegerErrorWithInput()
+        private static string DisplayNotValidIntegerErrorWithInput()
         {
             Console.WriteLine("The value you entered was not an integer 1-9. Please enter a valid integer: ");
             return Console.ReadLine();
         }
 
-        private string DisplayPositionAlreadyTakenErrorWithInput()
+        private static string DisplayPositionAlreadyTakenErrorWithInput()
         {
             Console.WriteLine("The position you entered has already been taken by a player. Please try again: ");
             return Console.ReadLine();
         }
 
-        private bool PositionIsAvailable(int position, TicTacToe ticTacToe)
+        private static bool PositionIsAvailable(int position, TicTacToe ticTacToe)
         {
             return ticTacToe[position - 1] == null;
         }

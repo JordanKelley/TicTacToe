@@ -9,16 +9,15 @@ namespace GameRunner.ConsoleApp
         static void Main(string[] args)
         {
             DisplayWelcome();
-            TicTacToe ticTacToe = new TicTacToe();
 
-            IInputService inputService = new TicTacToeInputService();
+            TicTacToe ticTacToe = new TicTacToe();
 
             bool hasWinner = false;
 
             while (!hasWinner)
             {
                 GenerateTicTacToeBoard(ticTacToe);
-                int position = inputService.GatherPlayerInput(ticTacToe);
+                int position = TicTacToeInputService.GatherPlayerInput(ticTacToe);
 
                 hasWinner = ticTacToe.Play(position);
             }
@@ -42,7 +41,7 @@ namespace GameRunner.ConsoleApp
         }
 
         /// <summary>
-        /// Displays a welcome to the user with basic instructions.
+        /// Displays a warm welcome to the user with basic instructions.
         /// </summary>
         private static void DisplayWelcome()
         {
