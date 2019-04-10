@@ -1,0 +1,17 @@
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Tests.deps.json
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Tests.runtimeconfig.json
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Tests.runtimeconfig.dev.json
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Tests.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Tests.pdb
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Shared.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\bin\Debug\netcoreapp2.2\GameRunner.Shared.pdb
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.csprojAssemblyReference.cache
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.csproj.CoreCompileInputs.cache
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.AssemblyInfoInputs.cache
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.AssemblyInfo.cs
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.csproj.CopyComplete
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner.Tests\obj\Debug\netcoreapp2.2\GameRunner.Tests.pdb

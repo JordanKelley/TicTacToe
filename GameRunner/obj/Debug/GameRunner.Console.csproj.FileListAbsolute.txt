@@ -1,0 +1,10 @@
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.Console.csproj.CoreCompileInputs.cache
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\bin\Debug\GameRunner.exe.config
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\bin\Debug\GameRunner.exe
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\bin\Debug\GameRunner.pdb
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\bin\Debug\GameRunner.Shared.dll
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\bin\Debug\GameRunner.Shared.pdb
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.Console.csprojAssemblyReference.cache
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.Console.csproj.CopyComplete
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.exe
+C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.pdb
