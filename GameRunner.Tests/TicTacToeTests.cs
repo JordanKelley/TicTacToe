@@ -8,7 +8,7 @@ namespace GameRunner.Tests
 {
     public class TicTacToeTests
     {
-        // I'm simply testing my tic-tac-toe class for the 3 different scenarios
+        // I'm simply testing my system under test tic-tac-toe class for the 3 different scenarios
         // through it's API entry point Play()
 
         [Theory]
