@@ -48,27 +48,27 @@ namespace GameRunner.Tests
             Assert.Equal("Player O Won!", sut.Winner);
         }
 
-        //[Theory]
-        //[InlineData(7, 0, 2, 0, )]
-        //public void TicTacToe_Draw(int turn1, int turn2, int turn3, int turn4, int turn5, int turn6, int turn7, int turn8, int turn9)
-        //{
-        //    // arrange
-        //    TicTacToe sut = new TicTacToe();
+        [Theory]
+        [InlineData(1, 2, 3, 4, 6, 5, 7, 9, 8)]
+        public void TicTacToe_Draw(int turn1, int turn2, int turn3, int turn4, int turn5, int turn6, int turn7, int turn8, int turn9)
+        {
+            // arrange
+            TicTacToe sut = new TicTacToe();
 
-        //    // act
-        //    sut.Play(turn1);
-        //    sut.Play(turn2);
-        //    sut.Play(turn3);
-        //    sut.Play(turn4);
-        //    sut.Play(turn5);
-        //    sut.Play(turn6);
-        //    sut.Play(turn7);
-        //    sut.Play(turn8);
-        //    sut.Play(turn9);
+            // act
+            sut.Play(turn1);
+            sut.Play(turn2);
+            sut.Play(turn3);
+            sut.Play(turn4);
+            sut.Play(turn5);
+            sut.Play(turn6);
+            sut.Play(turn7);
+            sut.Play(turn8);
+            sut.Play(turn9);
 
-        //    // assert
-        //    Assert.Equal("Cat's Game!", sut.Winner);
-        //}
+            // assert
+            Assert.Equal("Cat's Game!", sut.Winner);
+        }
 
         public static IEnumerable<object[]> Get8DifferentMatchingLinesPlayer1(int numTests)
         {

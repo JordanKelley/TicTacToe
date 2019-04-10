@@ -8,3 +8,13 @@ C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.Console
 C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.Console.csproj.CopyComplete
 C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.exe
 C:\Users\jkelley\source\repos\GameRunner\GameRunner\obj\Debug\GameRunner.pdb
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Console.exe.config
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Console.exe
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Console.pdb
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Shared.dll
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\bin\Debug\GameRunner.Shared.pdb
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.csprojAssemblyReference.cache
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.csproj.CoreCompileInputs.cache
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.csproj.CopyComplete
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.exe
+C:\Users\jkelley\Documents\Repositories\TicTacToe\GameRunner.Console\obj\Debug\GameRunner.Console.pdb
