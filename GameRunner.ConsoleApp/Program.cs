@@ -22,6 +22,7 @@ namespace GameRunner.ConsoleApp
                 hasWinner = ticTacToe.Play(position);
             }
 
+            GenerateTicTacToeBoard(ticTacToe);
             DisplayWinner(ticTacToe);
         }
 
